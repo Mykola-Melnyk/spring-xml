@@ -3,6 +3,9 @@ package net.codejava;
 public class ClientA implements Client{
     Service service;
 
+    public ClientA() {
+    }
+
     public ClientA(Service service) {
         this.service = service;
     }
